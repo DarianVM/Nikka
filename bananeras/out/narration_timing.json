@@ -1,0 +1,88 @@
+{
+  "duration": 43.16,
+  "narration_source": "scratch (Piper es-carlfm-x-low, es-419 phonemes)",
+  "narration_in_mix": false,
+  "music_source": "synthesized",
+  "sections": {
+    "setting": [
+      0.0,
+      7.079000000000001
+    ],
+    "strike": [
+      7.079000000000001,
+      13.05
+    ],
+    "army": [
+      13.05,
+      20.235
+    ],
+    "after": [
+      20.235,
+      28.35
+    ],
+    "gaitan": [
+      28.35,
+      35.800000000000004
+    ],
+    "lesson": [
+      35.800000000000004,
+      43.16
+    ],
+    "rupture": 20.235,
+    "final_card": 39.75,
+    "sting": 41.613,
+    "file": 30.564,
+    "congreso": 33.448,
+    "country": 34.003
+  },
+  "lines": [
+    {
+      "id": "L1",
+      "start": 0.5,
+      "end": 7.129,
+      "sub": "Colombia, 1928. | El banano enriquecía a la United Fruit Company, | no a quienes lo cosechaban."
+    },
+    {
+      "id": "L2",
+      "start": 7.429,
+      "end": 12.842,
+      "sub": "Sin seguro, sin descanso pagado, | cobrando en vales, | miles de trabajadores fueron a la huelga."
+    },
+    {
+      "id": "L3a",
+      "start": 13.4,
+      "end": 14.725,
+      "sub": "El gobierno envió al Ejército."
+    },
+    {
+      "id": "L3b",
+      "start": 15.4,
+      "end": 20.055,
+      "sub": "La noche del 5 al 6 de diciembre, | en Ciénaga, | la tropa disparó contra la multitud."
+    },
+    {
+      "id": "L4",
+      "start": 22.2,
+      "end": 27.39,
+      "sub": "Hubo muertos y persecución. | Cuántos, sigue en debate: | de decenas a más de mil, | según la fuente."
+    },
+    {
+      "id": "L5",
+      "start": 28.8,
+      "end": 35.281,
+      "sub": "En 1929, Jorge Eliécer Gaitán | investigó la masacre | y la denunció en el Congreso, | ante todo el país."
+    },
+    {
+      "id": "L6",
+      "start": 36.2,
+      "end": 38.929,
+      "sub": "Ni las ganancias ni el poder | valen más que una vida."
+    },
+    {
+      "id": "L7",
+      "start": 40.0,
+      "end": 41.563,
+      "sub": "Y la historia no terminó aquí."
+    }
+  ]
+}
