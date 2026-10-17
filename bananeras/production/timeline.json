@@ -2,6 +2,7 @@
   "title": "La Masacre de las Bananeras",
   "fps": 30,
   "tail": 1.6,
+  "narration_in_mix": false,
   "voice": {
     "model": "voice-es-carlfm-x-low/es-carlfm-x-low.onnx",
     "espeak": "es-419",

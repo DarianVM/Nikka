@@ -539,7 +539,10 @@ def main():
     sfx = hp(sfx.T, 35, order=4).T
     music = music / (np.abs(music).max() + 1e-9) * db(-6)
     sfx = sfx / (np.abs(sfx).max() + 1e-9) * db(-8)
-    mix = np.stack([voice, voice], axis=1) + duck(music, voice) * db(-5) + sfx * db(-5)
+    if tl.get("narration_in_mix", True):
+        mix = np.stack([voice, voice], axis=1) + duck(music, voice) * db(-5) + sfx * db(-5)
+    else:  # narration still times subtitles, sections and cues, but is not heard
+        mix = music * db(-5) + sfx * db(-5)
     n = len(mix)
     mix[n - int(0.5 * SR):] *= (np.linspace(1, 0, int(0.5 * SR)) ** 2)[:, None]
     mix = mix / (np.abs(mix).max() + 1e-9) * db(-1.5)
@@ -551,7 +554,7 @@ def main():
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(OUT / "mix_premaster.wav"),
                     "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", str(SR), "-ac", "2",
                     str(OUT / "mix.wav")], check=True)
-    meta = {"duration": T, "narration_source": vsource, "music_source": msource,
+    meta = {"duration": T, "narration_source": vsource, "narration_in_mix": tl.get("narration_in_mix", True), "music_source": msource,
             "sections": S, "lines": timing}
     (OUT / "narration_timing.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
     print(json.dumps(meta, ensure_ascii=False, indent=1))

@@ -6,7 +6,7 @@ A vertical motion-graphics documentary of about 43 seconds, built entirely in co
 
 | # | Deliverable | Status | File |
 |---|---|---|---|
-| 1 | Vertical MP4 | ✅ Rendered and checked (see the technical report). The narration is a **scratch synthetic voice**; see "What is not finished". | `out/bananeras_1080x1920.mp4` |
+| 1 | Vertical MP4 | ✅ Rendered and checked (see the technical report). **The soundtrack is music and SFX only, with no narrator.** The script still plays as burned-in subtitles. | `out/bananeras_1080x1920.mp4` |
 | 2 | Spanish narration script | ✅ 103 words, fact-checked line by line | `script/narracion.md` |
 | 3 | Historical sources with URLs | ✅ Established facts and disputed points listed separately | `research/sources.md` |
 | 4 | Production note: uncertainties and limits | ✅ Below | — |
@@ -36,27 +36,29 @@ A vertical motion-graphics documentary of about 43 seconds, built entirely in co
 **Creative element: the counter that never stops.** A split-flap board is the kind of device used to announce a final figure. Here it cannot announce one. It lands on the commander's 47, gets pushed to "more than a thousand", then spins into question marks. That turns the historiographic uncertainty into the image itself, without choosing a number or dramatizing one. It is backed by a second through-line: the railway that carried the bananas out becomes, in turn, the lines of the petition, the place of the massacre (the station square) and the closing timeline that runs off into the dark.
 
 ## Sound
+**The narrator is left out of the mix** (`"narration_in_mix": false` in `production/timeline.json`). The scratch voice is still synthesized because its measured timing drives the subtitles, scene cuts and sound cues, but it is not heard. With no voice to make room for, the music is no longer ducked. Set the flag to `true` to put a narrator back in.
+
 - **Score**, original and synthesized in `build_audio.py`. D minor low strings over a *muted* cumbia pulse (tambora on 1 and 3, a guache shaker accenting the off-beats) and a lone breathy gaita (cane-flute) lament. It is not party music. In the army section it turns to a muffled march pulse with timpani and a rising string cluster, which **stops dead at the rupture**. After the massacre there are only a thin high tone, wind and a slow gaita lament. Under Gaitán the strings climb, the timpani pulse and the brass swell. The ending is a single D-minor sting.
 - **SFX**: railway clacks, steam, insects and leaves at the opening; paper and a rubber stamp for the petition; measured boots; one restrained low thud with a dry, low-passed crack at the rupture (no gunfire volley); wind and paper in the empty square; printing-press clacks; a paper fold before the end card.
-- **Mix**: the music ducks about 9 dB under the voice, and the low end is high-passed for phone speakers. The master is normalized to −14 LUFS with true peak at −1.4 dBTP.
+- **Mix**: music plus SFX with the low end high-passed for phone speakers. When narration is in the mix, the music ducks about 9 dB under the voice. The master is normalized to about −14 LUFS with true peak at −1.4 dBTP.
 
 ## Technical report (measured with ffprobe and ebur128 on the encoded file)
 
 | Property | Value |
 |---|---|
 | Resolution | 1080 × 1920, native vertical layout (nothing cropped from 16:9) |
-| Duration | 43.1 s (1,293 frames). "Approximately 40 s": the extra 3 s are the post-massacre silence and the end-card hold. The words were not sped up. |
+| Duration | 43.1 s (1,294 frames). "Approximately 40 s": the extra 3 s are the post-massacre silence and the end-card hold. The words were not sped up. |
 | Frame rate | 30 fps, constant |
 | Video | H.264 High profile, yuv420p, CRF 18 capped at 14 Mb/s, `+faststart` |
 | Audio | AAC-LC, 48 kHz stereo, 256 kb/s |
-| Loudness | −14.1 LUFS integrated, LRA 2.8 LU, true peak −1.4 dBFS |
+| Loudness | −14.6 LUFS integrated, LRA 8.2 LU (no voice holding the level steady), true peak −1.4 dBFS |
 | Safe areas | Key text stays between x 90 and 960 (clear of the right-hand buttons). Subtitles sit at y ≈1372–1530, above the caption area. |
 
 QC on the encoded MP4: a 1 fps contact sheet, full-resolution stills of every scene, a per-second level scan of the mix (the only dip is the intended silence after the rupture), and peak checks on every stem.
 
 ## What is not finished, and why
 
-1. **The narrator is a scratch synthetic voice.** The brief asks for natural Colombian Spanish. In this container:
+1. **There is no audible narrator.** The video carries the script as subtitles. The scratch voice that sets the timing was not good enough to keep in the mix, for these reasons. The brief asks for natural Colombian Spanish. In this container:
    - A Colombian ElevenLabs voice ("Valentina Santos") was generated through Magnific, but its file host `pikaso.cdnpk.net` is blocked by the network policy, so the audio could not come back in.
    - Hugging Face, which hosts the better Latin-American Piper voices, is also blocked.
    - What remains is Piper's `es-carlfm-x-low` from GitHub. It was **re-phonemized with espeak's Latin-American rules (`es-419`)**, so it uses seseo ("Ciénaga" with /s/, not /θ/) and yeísmo. It is still low-bandwidth (16 kHz), fairly flat in intonation and recognizably synthetic. **It is not publishable as the final voice.**
@@ -69,6 +71,7 @@ QC on the encoded MP4: a 1 fps contact sheet, full-resolution stills of every sc
 # 1. record the 8 lines of script/narracion.md (Colombian narrator) as
 #    assets/audio/narration/L1.wav L2.wav L3a.wav L3b.wav L4.wav L5.wav L6.wav L7.wav
 #    (optional) drop a licensed score at assets/audio/music.wav
+# set "narration_in_mix": true in production/timeline.json
 python3 production/build_audio.py     # re-times sections, cues and subtitles from the real takes
 python3 production/render_video.py    # about 4–5 minutes on 4 cores
 ```
