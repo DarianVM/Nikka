@@ -3,3 +3,8 @@ gaitan/out/qc/
 gaitan/out/mix_premaster.wav
 __pycache__/
 *.pyc
+bananeras/out/preview/
+bananeras/out/qc/
+bananeras/out/mix_premaster.wav
+bananeras/out/render.log
+bananeras/assets/voices/

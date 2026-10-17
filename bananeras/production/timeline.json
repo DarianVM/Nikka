@@ -1,0 +1,57 @@
+{
+  "title": "La Masacre de las Bananeras",
+  "fps": 30,
+  "tail": 1.6,
+  "voice": {
+    "model": "voice-es-carlfm-x-low/es-carlfm-x-low.onnx",
+    "espeak": "es-419",
+    "length_scale": 1.06,
+    "noise_scale": 0.6,
+    "noise_w_scale": 0.7
+  },
+  "lines": [
+    {
+      "id": "L1",
+      "at": 0.5,
+      "sub": "Colombia, 1928. | El banano enriquecía a la United Fruit Company, | no a quienes lo cosechaban.",
+      "tts": "Colombia, 1928. El banano enriquecía a la Yunáited Frut Cómpani, no a quienes lo cosechaban."
+    },
+    {
+      "id": "L2",
+      "at": 7.4,
+      "sub": "Sin seguro, sin descanso pagado, | cobrando en vales, | miles de trabajadores fueron a la huelga."
+    },
+    {
+      "id": "L3a",
+      "at": 13.4,
+      "sub": "El gobierno envió al Ejército."
+    },
+    {
+      "id": "L3b",
+      "at": 15.4,
+      "sub": "La noche del 5 al 6 de diciembre, | en Ciénaga, | la tropa disparó contra la multitud.",
+      "tts": "La noche del cinco al seis de diciembre, en Ciénaga, la tropa disparó contra la multitud."
+    },
+    {
+      "id": "L4",
+      "at": 22.2,
+      "sub": "Hubo muertos y persecución. | Cuántos, sigue en debate: | de decenas a más de mil, | según la fuente."
+    },
+    {
+      "id": "L5",
+      "at": 28.8,
+      "sub": "En 1929, Jorge Eliécer Gaitán | investigó la masacre | y la denunció en el Congreso, | ante todo el país."
+    },
+    {
+      "id": "L6",
+      "at": 36.2,
+      "sub": "Ni las ganancias ni el poder | valen más que una vida."
+    },
+    {
+      "id": "L7",
+      "at": 40.0,
+      "sub": "Y la historia no terminó aquí."
+    }
+  ],
+  "_sections": "Section boundaries and sound cues are derived from the measured narration timing (see section_times in build_audio.py), so a professional re-record re-times the whole film automatically."
+}
