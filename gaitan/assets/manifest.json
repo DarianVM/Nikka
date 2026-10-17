@@ -1,0 +1,59 @@
+{
+  "_note": "Archival assets used by production/render_video.py. Files go in assets/archival/<local_name>. Licence data was taken from the Commons file pages as reported by web search on 2026-10-17; the Commons pages themselves could not be opened from the build container (network policy), so re-check every licence and author field on the file page before publishing. 'status' records what was actually done.",
+  "archival": [
+    {
+      "local_name": "gaitan_1936.jpg",
+      "used_in": ["hook 0:00-0:04", "assassination 0:17-0:24 (slow push)"],
+      "subject": "Portrait of Jorge Eliécer Gaitán, 1936 (the year he served as mayor of Bogotá)",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Jorge_Eli%C3%A9cer_Gait%C3%A1n_(1936).jpg",
+      "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Jorge_Eli%C3%A9cer_Gait%C3%A1n_%281936%29.jpg",
+      "creator": "Unknown photographer; source credited as Revista Credencial Historia",
+      "date": "1936",
+      "licence": "Public domain in Colombia (PD-Colombia per the Commons page); Commons warns it may not be PD in some other countries. Colombian law requires crediting author and source when known.",
+      "resolution": "330 x 417 px (low resolution; shown as a framed print, never upscaled to full frame without grain)",
+      "identity_check": "Used on the Spanish and English Wikipedia articles about Gaitán and on the 1946 Colombian presidential election article.",
+      "status": "URL verified to exist (imported server-side into the user's Magnific library). NOT in the build container: the network policy blocks upload.wikimedia.org and the Magnific CDN."
+    },
+    {
+      "local_name": "marcha_del_silencio_1948.jpg",
+      "used_in": ["legacy 0:13-0:17 (\"Multitudes lo seguían\")"],
+      "subject": "Marcha del Silencio, Bogotá, 7 February 1948",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Jorge-eliecer-gait%C3%A1n.jpg",
+      "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Jorge-eliecer-gait%C3%A1n.jpg",
+      "creator": "Unknown (Commons lists author and source as unknown)",
+      "date": "1948",
+      "licence": "Tagged CC BY-SA 4.0 on Commons, but with an unknown author and source that tag is doubtful. Treat as UNVERIFIED: use only after confirming provenance (e.g. against the Banrepcultural Sady González collection) or replace it.",
+      "resolution": "700 x 500 px",
+      "status": "Not downloaded (host blocked). On-screen caption reads 'MARCHA DEL SILENCIO · BOGOTÁ, FEBRERO DE 1948' so the image is never presented as a different rally."
+    },
+    {
+      "local_name": "bogotazo_tranvia_1948.jpg",
+      "used_in": ["bogotazo 0:24-0:28"],
+      "subject": "A tram burning in front of the Capitolio Nacional during the Bogotazo, 9 April 1948",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Bogotazo.jpg",
+      "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Bogotazo.jpg",
+      "creator": "Commons credits 'Santiago Martinez Delgado' as source (unconfirmed as photographer)",
+      "date": "1948-04-09",
+      "licence": "GFDL 1.2+ per the Commons page (uploaded 2008). GFDL requires the licence text or a link to accompany the work; credit in the TikTok caption plus the report.",
+      "resolution": "391 x 244 px (very low resolution; framed print only)",
+      "status": "Not downloaded (host blocked)."
+    }
+  ],
+  "candidates_not_used": [
+    {"commons_page": "https://commons.wikimedia.org/wiki/File:Jorge_Eliecer_Gaitan.jpg", "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Jorge_Eliecer_Gaitan.jpg", "note": "2132 x 2848 px portrait listed in the Commons category; licence and date unknown from search, so not used until checked. Would be the best hero image if its licence holds."},
+    {"commons_page": "https://commons.wikimedia.org/wiki/File:El_Bogotazo.jpg", "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/El_Bogotazo.jpg", "note": "2023 upload captioned 'La Violencia (1925-1958)'; location/date of the scene not documented. Not used."},
+    {"commons_page": "https://commons.wikimedia.org/wiki/File:Museo_Nacional_-_Mascarilla_de_Jorge_Eli%C3%A9cer_Gait%C3%A1n.JPG", "note": "CC0 photo of his death mask at the Museo Nacional. Considered for the ending, left out for restraint."},
+    {"source": "https://www.banrepcultural.org/exposiciones/foto-sady/exposicion/el-bogotazo", "note": "Sady González's Bogotazo photographs (Biblioteca Luis Ángel Arango). Best-documented visual record of 9 April 1948, but rights are held by the collection: request permission before use."}
+  ],
+  "generated": [
+    {"what": "All typography, newspaper layouts (text rendered as grey bars, no invented copy), microphone, crowd and city illustrations, fire, embers, film grain", "how": "production/render_video.py (Pillow + NumPy)", "label": "Illustrated plates carry an on-screen 'ILUSTRACIÓN' tag."},
+    {"what": "Original score and all sound effects", "how": "production/build_audio.py (NumPy/SciPy synthesis: additive strings and brass, Karplus-Strong tiple, synthesized timpani, impacts, typewriter, paper, crowd, fire, projector)", "licence": "Original work created for this project."},
+    {"what": "Scratch narration", "how": "Piper TTS, voice es-carlfm-x-low (rhasspy/piper release v0.0.2)", "note": "Timing guide only: Castilian (Spain) male voice, low fidelity. Replace with a Colombian narrator before publishing."}
+  ],
+  "fonts": [
+    {"file": "PlayfairDisplay[wght].ttf", "licence": "SIL OFL 1.1", "source": "https://github.com/google/fonts/tree/main/ofl/playfairdisplay"},
+    {"file": "Oswald[wght].ttf", "licence": "SIL OFL 1.1", "source": "https://github.com/google/fonts/tree/main/ofl/oswald"},
+    {"file": "SpecialElite-Regular.ttf", "licence": "Apache 2.0", "source": "https://github.com/google/fonts/tree/main/apache/specialelite"},
+    {"file": "OldStandard-*.ttf, CourierPrime-*.ttf, BebasNeue-Regular.ttf", "licence": "SIL OFL 1.1", "source": "https://github.com/google/fonts (downloaded, not currently used)"}
+  ]
+}

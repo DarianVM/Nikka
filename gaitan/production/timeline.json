@@ -1,0 +1,150 @@
+{
+  "fps": 30,
+  "duration": 30.5,
+  "width": 1080,
+  "height": 1920,
+  "lines": [
+    {
+      "id": "L01",
+      "target": 0.35,
+      "spoken": "Pudo cambiar la historia de Colombia.",
+      "sub": "Pudo cambiar la historia de Colombia."
+    },
+    {
+      "id": "L02",
+      "target": 2.2,
+      "spoken": "Se llamaba Jorge Eliécer Gaitán.",
+      "sub": "Se llamaba Jorge Eliécer Gaitán."
+    },
+    {
+      "id": "L03",
+      "target": 4.15,
+      "spoken": "Hijo de una maestra, estudió derecho en Bogotá y en Roma,",
+      "sub": "Hijo de una maestra, estudió derecho en Bogotá y en Roma,"
+    },
+    {
+      "id": "L04",
+      "target": 7.2,
+      "spoken": "y le habló al pueblo como nadie.",
+      "sub": "y le habló al pueblo como nadie."
+    },
+    {
+      "id": "L05",
+      "target": 9.0,
+      "spoken": "En mil novecientos veintinueve denunció en el Congreso la masacre de las bananeras.",
+      "sub": "En 1929 denunció en el Congreso la masacre de las bananeras."
+    },
+    {
+      "id": "L06",
+      "target": 13.35,
+      "spoken": "Multitudes lo seguían. Muchos lo veían como el próximo presidente.",
+      "sub": "Multitudes lo seguían. Muchos lo veían como el próximo presidente."
+    },
+    {
+      "id": "L07",
+      "target": 17.15,
+      "spoken": "Pero el nueve de abril de mil novecientos cuarenta y ocho, en Bogotá,",
+      "sub": "Pero el 9 de abril de 1948, en Bogotá,"
+    },
+    {
+      "id": "L08",
+      "target": 22.0,
+      "spoken": "le dispararon.",
+      "sub": "le dispararon."
+    },
+    {
+      "id": "L09",
+      "target": 23.15,
+      "spoken": "Murió esa misma tarde.",
+      "sub": "Murió esa misma tarde."
+    },
+    {
+      "id": "L10",
+      "target": 25.0,
+      "spoken": "Bogotá ardió.",
+      "sub": "Bogotá ardió."
+    },
+    {
+      "id": "L11",
+      "target": 26.2,
+      "spoken": "Y Colombia nunca volvió a ser la misma.",
+      "sub": "Y Colombia nunca volvió a ser la misma."
+    }
+  ],
+  "sections": {
+    "hook": [
+      0.0,
+      4.0
+    ],
+    "rise": [
+      4.0,
+      8.85
+    ],
+    "legacy": [
+      8.85,
+      17.0
+    ],
+    "assassination": [
+      17.0,
+      24.6
+    ],
+    "bogotazo": [
+      24.6,
+      28.4
+    ],
+    "title": [
+      28.4,
+      30.5
+    ]
+  },
+  "rupture": 21.6,
+  "events": [
+    {
+      "t": 0.12,
+      "type": "impact_low"
+    },
+    {
+      "t": 4.0,
+      "type": "paper_slide"
+    },
+    {
+      "t": 4.3,
+      "type": "typewriter",
+      "chars": 6
+    },
+    {
+      "t": 5.9,
+      "type": "typewriter",
+      "chars": 4
+    },
+    {
+      "t": 8.85,
+      "type": "paper_slide"
+    },
+    {
+      "t": 9.15,
+      "type": "typewriter",
+      "chars": 14
+    },
+    {
+      "t": 13.2,
+      "type": "impact_soft"
+    },
+    {
+      "t": 17.0,
+      "type": "paper_slide"
+    },
+    {
+      "t": 21.6,
+      "type": "rupture"
+    },
+    {
+      "t": 24.6,
+      "type": "impact_big"
+    },
+    {
+      "t": 28.4,
+      "type": "impact_soft"
+    }
+  ]
+}

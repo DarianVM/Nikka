@@ -1,0 +1,18 @@
+# Shot list — "El hombre que pudo cambiar Colombia"
+
+1080×1920 · 30 fps · 30.5 s. Section times come from `production/timeline.json`. **[A]** = archival photo slot (used if the file is in `assets/archival/`, otherwise the labelled illustrated plate described under *fallback*, which is what the current render shows). Safe area: content inside x 90–960 and y 150–1480; subtitles at y≈1335–1480; nothing essential in the right 120 px (TikTok buttons) or bottom 440 px (caption).
+
+| Time | Section | Visual | Text on screen | Sound |
+|---|---|---|---|---|
+| 0:00–0:04.0 | **Hook** | Dark charcoal paper. **[A]** 1936 portrait (`gaitan_1936.jpg`) as a torn-edge print, revealed by an ink bleed and slowly pushed in (1.00→1.06). *Fallback:* the name "JORGE / ELIÉCER / GAITÁN" in Playfair Black, revealed by the same ink bleed. | Kicker "COLOMBIA · 1948" with red rules; name title at L02 | Low cinematic impact at 0.12 s; D-minor low-string drone swell; projector bed |
+| 0:04.0–0:07.4 | **Rise** | A newsprint page slides up (its columns are grey bars, so no copy is invented). The typewriter types "BOGOTÁ"; a red route line draws down to "ROMA". | "Universidad Nacional · Derecho"; "Real Universidad de Roma · 1926" | Paper slide; typewriter keys; cello ostinato in 6/8 with a soft tiple pattern (bambuco lilt) |
+| 0:07.4–0:08.85 | Rise | Cut to black: an illustrated 1940s radio microphone with sound rings (his oratory) | "ILUSTRACIÓN" tag | Ostinato continues |
+| 0:08.85–0:13.2 | **Legacy** | A second newsprint page drops in; "1929" in red types on, then the headline block | "1929 / DEBATE EN EL CONGRESO / LA MASACRE DE LAS BANANERAS / Magdalena · diciembre de 1928" | Paper slide; typewriter; timpani pulse enters |
+| 0:13.2–0:17.0 | Legacy | **[A]** *Marcha del Silencio* 1948 photo with slow drift, captioned with its real event and date. *Fallback:* rally crowd as ink silhouettes in three parallax layers (hats of the period, a few raised arms) | "ELECCIONES DE 1950 / ¿EL PRÓXIMO PRESIDENTE?" | Soft impact; distant crowd murmur; brass swell builds |
+| 0:17.0–0:21.6 | **Assassination** | **[A]** Large portrait (fallback: name block), slow push-in 1.00→1.22 while the frame darkens. Typewriter date. | "9 DE ABRIL DE 1948" / "BOGOTÁ · CARRERA SÉPTIMA" | Music thins to a drone and a low heartbeat-like timpani; high strings creep in |
+| 0:20.7–0:22.0 | Assassination | Pause: the image holds. At 0:21.6 the **rupture**: the image tears along a jagged red line, the halves drift apart, everything falls to near-black. No depiction of the shooting, no blood, no gun. | — then subtitle "le dispararon." | Music cuts to silence at 0:21.6; one muffled low thud and a paper tear (no gunshot recreation); projector stops |
+| 0:23.1–0:24.6 | Assassination | Torn image in darkness | "† / 9 · IV · 1948" | A single thin, unresolved high string tone |
+| 0:24.6–0:28.4 | **Bogotazo** | Cut on a strong impact. **[A]** Photo of the burning tram in front of the Capitolio, with fire glow and embers. *Fallback:* illustrated 1940s city skyline in silhouette with lit windows against a flickering fire glow, rising embers | "EL BOGOTAZO" (scale settle on the hit); "ILUSTRACIÓN" tag or real caption | Big impact; full low chord with brass and a timpani roll; fire crackle and crowd |
+| 0:28.4–0:30.5 | **Title** | Black card; a red rule draws out from the centre; fade to black | "JORGE ELIÉCER / GAITÁN / EL HOMBRE QUE PUDO CAMBIAR COLOMBIA / † BOGOTÁ, 9 DE ABRIL DE 1948" | Final low D with a lone tiple note, long reverb tail, eased fade (no hard cut) |
+
+Throughout: film grain (6-frame cycle), ±1.8 % exposure flicker, vignette, sparse dust and an occasional scratch; red is reserved for dates, rules and the tear.
