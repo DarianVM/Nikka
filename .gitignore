@@ -3,3 +3,6 @@ gaitan/out/qc/
 gaitan/out/mix_premaster.wav
 __pycache__/
 *.pyc
+la_violencia/out/preview/
+la_violencia/out/qc/
+la_violencia/out/_bed_tmp.wav

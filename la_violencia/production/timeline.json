@@ -1,0 +1,327 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration": 48.73,
+ "rate_syllables_per_s": 6.2,
+ "lines": [
+  {
+   "id": "L01",
+   "sub": "1948. Liberales y conservadores ya se enfrentan.",
+   "spoken": "Mil novecientos cuarenta y ocho. Liberales y conservadores ya se enfrentan.",
+   "start": 0.55,
+   "end": 4.964,
+   "red": [
+    "1948"
+   ],
+   "chunks": [
+    {
+     "text": "1948.",
+     "start": 0.55,
+     "end": 1.306,
+     "show_end": 1.266
+    },
+    {
+     "text": "Liberales y conservadores",
+     "start": 1.306,
+     "end": 3.744,
+     "show_end": 3.704
+    },
+    {
+     "text": "ya se enfrentan.",
+     "start": 3.744,
+     "end": 4.964,
+     "show_end": 5.204
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "sub": "El 9 de abril asesinan en Bogotá a Jorge Eliécer Gaitán, líder liberal.",
+   "spoken": "El nueve de abril asesinan en Bogotá a Jorge Eliécer Gaitán, líder liberal.",
+   "start": 5.244,
+   "end": 9.738,
+   "red": [
+    "9 de abril",
+    "Jorge Eliécer Gaitán"
+   ],
+   "chunks": [
+    {
+     "text": "El 9 de abril asesinan en Bogotá",
+     "start": 5.244,
+     "end": 7.329,
+     "show_end": 7.289
+    },
+    {
+     "text": "a Jorge Eliécer Gaitán, líder liberal.",
+     "start": 7.329,
+     "end": 9.738,
+     "show_end": 9.978
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "sub": "Linchan al tirador, Juan Roa Sierra.",
+   "spoken": "Linchan al tirador, Juan Roa Sierra.",
+   "start": 10.018,
+   "end": 11.933,
+   "red": [],
+   "chunks": [
+    {
+     "text": "Linchan al tirador, Juan Roa Sierra.",
+     "start": 10.018,
+     "end": 11.933,
+     "show_end": 12.173
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "sub": "Si alguien más lo ordenó, nunca se probó.",
+   "spoken": "Si alguien más lo ordenó, nunca se probó.",
+   "start": 12.213,
+   "end": 14.611,
+   "red": [],
+   "chunks": [
+    {
+     "text": "Si alguien más lo ordenó,",
+     "start": 12.213,
+     "end": 13.804,
+     "show_end": 13.764
+    },
+    {
+     "text": "nunca se probó.",
+     "start": 13.804,
+     "end": 14.611,
+     "show_end": 14.851
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "sub": "Bogotá arde.",
+   "spoken": "Bogotá arde.",
+   "start": 14.891,
+   "end": 15.697,
+   "red": [
+    "Bogotá"
+   ],
+   "chunks": [
+    {
+     "text": "Bogotá arde.",
+     "start": 14.891,
+     "end": 15.697,
+     "show_end": 15.937
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "sub": "El Bogotazo se apaga en días. La Violencia, no.",
+   "spoken": "El Bogotazo se apaga en días. La Violencia, no.",
+   "start": 15.977,
+   "end": 19.079,
+   "red": [
+    "La Violencia"
+   ],
+   "chunks": [
+    {
+     "text": "El Bogotazo se apaga en días.",
+     "start": 15.977,
+     "end": 18.06,
+     "show_end": 18.02
+    },
+    {
+     "text": "La Violencia, no.",
+     "start": 18.06,
+     "end": 19.079,
+     "show_end": 19.319
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "sub": "En el campo, ser liberal o conservador puede costar la vida.",
+   "spoken": "En el campo, ser liberal o conservador puede costar la vida.",
+   "start": 19.359,
+   "end": 22.725,
+   "red": [],
+   "chunks": [
+    {
+     "text": "En el campo,",
+     "start": 19.359,
+     "end": 20.144,
+     "show_end": 20.104
+    },
+    {
+     "text": "ser liberal o conservador",
+     "start": 20.144,
+     "end": 21.596,
+     "show_end": 21.556
+    },
+    {
+     "text": "puede costar la vida.",
+     "start": 21.596,
+     "end": 22.725,
+     "show_end": 22.965
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "sub": "Cada región vive su propia guerra.",
+   "spoken": "Cada región vive su propia guerra.",
+   "start": 23.005,
+   "end": 24.779,
+   "red": [],
+   "chunks": [
+    {
+     "text": "Cada región vive su propia guerra.",
+     "start": 23.005,
+     "end": 24.779,
+     "show_end": 25.129
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "sub": "Los muertos se estiman entre decenas de miles y más de doscientos mil.",
+   "spoken": "Los muertos se estiman entre decenas de miles y más de doscientos mil.",
+   "start": 25.6,
+   "end": 29.148,
+   "red": [],
+   "chunks": [
+    {
+     "text": "Los muertos se estiman",
+     "start": 25.6,
+     "end": 26.729,
+     "show_end": 26.689
+    },
+    {
+     "text": "entre decenas de miles",
+     "start": 26.729,
+     "end": 28.019,
+     "show_end": 27.979
+    },
+    {
+     "text": "y más de doscientos mil.",
+     "start": 28.019,
+     "end": 29.148,
+     "show_end": 29.498
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "sub": "Cientos de miles de campesinos huyen.",
+   "spoken": "Cientos de miles de campesinos huyen.",
+   "start": 29.6,
+   "end": 31.535,
+   "red": [],
+   "chunks": [
+    {
+     "text": "Cientos de miles de campesinos huyen.",
+     "start": 29.6,
+     "end": 31.535,
+     "show_end": 31.885
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "sub": "En 1958, los partidos pactan el Frente Nacional.",
+   "spoken": "En mil novecientos cincuenta y ocho, los partidos pactan el Frente Nacional.",
+   "start": 32.0,
+   "end": 36.011,
+   "red": [
+    "1958",
+    "Frente Nacional"
+   ],
+   "chunks": [
+    {
+     "text": "En 1958, los partidos",
+     "start": 32.0,
+     "end": 33.697,
+     "show_end": 33.657
+    },
+    {
+     "text": "pactan el Frente Nacional.",
+     "start": 33.697,
+     "end": 36.011,
+     "show_end": 36.251
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "sub": "Frena la guerra partidista, no el problema de la tierra.",
+   "spoken": "Frena la guerra partidista, no el problema de la tierra.",
+   "start": 36.291,
+   "end": 39.334,
+   "red": [
+    "la tierra"
+   ],
+   "chunks": [
+    {
+     "text": "Frena la guerra partidista,",
+     "start": 36.291,
+     "end": 37.883,
+     "show_end": 37.843
+    },
+    {
+     "text": "no el problema de la tierra.",
+     "start": 37.883,
+     "end": 39.334,
+     "show_end": 39.574
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "sub": "En los sesenta, en esas regiones, nacen nuevas guerrillas.",
+   "spoken": "En los sesenta, en esas regiones, nacen nuevas guerrillas.",
+   "start": 39.614,
+   "end": 42.797,
+   "red": [],
+   "chunks": [
+    {
+     "text": "En los sesenta, en esas regiones,",
+     "start": 39.614,
+     "end": 41.668,
+     "show_end": 41.628
+    },
+    {
+     "text": "nacen nuevas guerrillas.",
+     "start": 41.668,
+     "end": 42.797,
+     "show_end": 43.147
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "sub": "¿Qué pasa cuando un país cierra una guerra sin cerrar sus causas?",
+   "spoken": "¿Qué pasa cuando un país cierra una guerra sin cerrar sus causas?",
+   "start": 43.4,
+   "end": 46.626,
+   "red": [
+    "sin cerrar sus causas"
+   ],
+   "chunks": [
+    {
+     "text": "¿Qué pasa cuando un país cierra",
+     "start": 43.4,
+     "end": 45.013,
+     "show_end": 44.973
+    },
+    {
+     "text": "una guerra sin cerrar sus causas?",
+     "start": 45.013,
+     "end": 46.626,
+     "show_end": 46.976
+    }
+   ]
+  }
+ ]
+}
